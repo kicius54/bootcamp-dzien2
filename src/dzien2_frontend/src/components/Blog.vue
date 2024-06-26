@@ -23,7 +23,7 @@ export default {
             await dzien2_backend.dodaj_wpis(this.nowyBlog);
         },
         async pobierzWpisy() {
-            this.wpisy = await dzien2_backend.odczytaj_wpisy();
+            this.wpisy = await dzien2_backend.odczytaj_wpisy();dfx
         }
     },
 
